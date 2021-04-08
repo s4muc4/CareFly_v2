@@ -27,7 +27,7 @@ function Landing() {
 			</Text>
 
 			<View style={styles.buttonsContainer}>
-				<RectButton  onPress={handleNavigateToGiveLocationPage} style={[styles.button, styles.buttonPrimary]}>
+				<RectButton onPress={handleNavigateToGiveLocationPage}  style={[styles.button, styles.buttonPrimary]}>
 					<Image source={cloudImg} style={styles.iconCloud}/>
 
 					<Text style={styles.buttonText}>Conferir clima</Text>
