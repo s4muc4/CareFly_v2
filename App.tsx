@@ -9,10 +9,12 @@ import Constants from 'expo-constants';
 import * as Location from 'expo-location';
 
 
+
+
 import * as Permissions from 'expo-permissions';
 
 
-import { AppLoading } from 'expo';
+import  AppLoading from 'expo-app-loading';
 
 import { Archivo_400Regular, Archivo_700Bold, useFonts } from '@expo-google-fonts/archivo';
 import { Poppins_400Regular, Poppins_600SemiBold } from '@expo-google-fonts/poppins'
